@@ -9,7 +9,7 @@ export const registerController = async (req, res) => {
       res.send({ message: "Name is Required" });
     }
     if (!email) {
-      res.send({ message: "email is Required" });
+      res.send({ message: "Email is Required" });
     }
     if (!phone) {
       res.send({ message: "Phone  no is Required" });
